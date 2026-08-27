@@ -14,18 +14,18 @@ const tracks = [{
         "/music/Pokémon D_P_P - Jubilife City.mp3"
 }, {
     title:
-        "Moment Of Truth",
+        "Grasslands",
     artist:
-        "FM Static",
+        "Square Enix",
     src:
-        "/music/Moment Of Truth - FM Static (Lyrics).mp3"
+        "/music/Grasslands FF7R.mp3"
 }, {
     title:
-        "Thinking of You",
+        "Temmie Village",
     artist:
-        "Katy Perry",
+        "Toby Fox",
     src:
-        "music/Katy Perry - Thinking of you (Lyrics).mp3"
+        "music/Temmie Village.mp3"
 }, {
     title:
         "Your Guardian Angel",

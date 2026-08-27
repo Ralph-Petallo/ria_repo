@@ -2214,7 +2214,7 @@
     </div>
 
 
-    <script>
+    <script type="module">
 
         /* =========================================================
            ENVELOPE / COUNTDOWN
@@ -2826,85 +2826,11 @@
             The playlist automatically becomes
             scrollable once there are more than 5.
         */
+        import MusicList from './musicList.js'
 
-        const tracks = [
 
-            {
-                title:
-                    "Pokémon D/P/P",
-
-                artist:
-                    "Jubilife City",
-
-                src:
-                    "/music/Pokemon DPP.mp3"
-            },
-
-            {
-                title:
-                    "Track Two",
-
-                artist:
-                    "Artist Placeholder",
-
-                src:
-                    "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
-            },
-
-            {
-                title:
-                    "Track Three",
-
-                artist:
-                    "Artist Placeholder",
-
-                src:
-                    "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
-            },
-
-            {
-                title:
-                    "Moment Of Truth",
-
-                artist:
-                    "FM Static",
-
-                src:
-                    "/music/Moment Of Truth - FM Static (Lyrics).mp3"
-            },
-
-            {
-                title:
-                    "Track Five",
-
-                artist:
-                    "Artist Placeholder",
-
-                src:
-                    "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
-            },
-
-            /*
-                Add more songs below this point.
-
-                They will NOT make the player taller.
-
-                The playlist will simply scroll.
-            */
-
-            {
-                title:
-                    "Track Six",
-
-                artist:
-                    "Artist Placeholder",
-
-                src:
-                    "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
-            }
-
-        ];
-
+        const tracks = MusicList()
+        console.log(tracks)
 
         let current = 0;
 

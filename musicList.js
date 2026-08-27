@@ -44,9 +44,58 @@ const tracks = [{
     title:
         "Huling Sandali",
     artist:
-        "December Avenue",
+        "December Avenue ",
     src:
         "music/December Avenue - Huling Sandali (OFFICIAL LYRIC VIDEO).mp3"
+}, {
+    title:
+        "Pag-Ibig ay Kanibalismo",
+    artist:
+        "Fitterkarma",
+    src:
+        "music/fitterkarma - Pag-Ibig ay Kanibalismo II (Lyrics).mp3"
+}, {
+    title:
+        "Kalapastangan",
+    artist:
+        "Fitterkarma",
+    src:
+        "music/Fitterkarma - Kalapastangan (Lyrics) [VZwpvafsvpU].mp3"
+}, {
+    title:
+        "Life After You",
+    artist:
+        "Daughtry",
+    src:
+        "music/Daughtry - Life After You (Lyrics).mp3"
+}, {
+    title:
+        "About You",
+    artist:
+        "The 1975",
+    src:
+        "music/The 1975 - About You (Official).mp3"
+}, {
+    title:
+        "Multo",
+    artist:
+        "Cup of Joe",
+    src:
+        "music/Cup of Joe - Multo (Lyrics) [qgKgH8P6B5s].mp3"
+}, {
+    title:
+        "Leonora",
+    artist:
+        "SUGARCANE",
+    src:
+        "music/SUGARCANE - Leonora (Lyrics).mp3"
+}, {
+    title:
+        "Bawat Piyesa",
+    artist:
+        "Munimuni",
+    src:
+        "music/Munimuni - Bawat Piyesa (Lyrics).mp3"
 }];
 
 export default function MusicList() {

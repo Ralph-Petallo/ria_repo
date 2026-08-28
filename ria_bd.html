@@ -1618,7 +1618,7 @@
             .page {
                 padding:
                     0 16px 125px;
-            }
+            }   
 
             .hero {
                 padding-top: 70px;
@@ -1638,6 +1638,16 @@
 
             .gallery img {
                 height: 220px;
+            }
+
+            #sec-gallery .gallery img {
+                height: clamp(150px, 48vw, 190px);
+            }
+
+            #sec-gallery.reveal {
+                opacity: 1;
+
+                transform: none;
             }
 
             .gallery figure {
@@ -1690,6 +1700,10 @@
 
             .gallery {
                 grid-template-columns: 1fr;
+            }
+
+            #sec-gallery .gallery img {
+                height: 170px;
             }
 
             .envelope {

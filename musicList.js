@@ -7,6 +7,41 @@ const tracks = [{
         "music/Happy Birthday To You - THE KIBOOMERS.mp3"
 }, {
     title:
+        "Your Guardian Angel",
+    artist:
+        "The Red Jumpsuit Apparataus",
+    src:
+        "music/The Red Jumpsuit Apparatus - Your Guardian Angel (Lyrics).mp3"
+}, {
+    title:
+        "Kawaki wo Ameku",
+    artist:
+        "Minami",
+    src:
+        "music/Minami - Kawaki wo Ameku Lyrics (Crying for Rain)_Domestic na Kanojo Op song [rse6a3MSKto].mp3"
+}, {
+    title:
+        "About You",
+    artist:
+        "The 1975",
+    src:
+        "music/The 1975 - About You (Official).mp3"
+}, {
+    title:
+        "Pag-Ibig ay Kanibalismo",
+    artist:
+        "Fitterkarma",
+    src:
+        "music/fitterkarma - Pag-Ibig ay Kanibalismo II (Lyrics).mp3"
+}, {
+    title:
+        "Huling Sandali",
+    artist:
+        "December Avenue ",
+    src:
+        "music/December Avenue - Huling Sandali (OFFICIAL LYRIC VIDEO).mp3"
+}, {
+    title:
         "Pokémon D/P/P",
     artist:
         "Jubilife City",
@@ -28,34 +63,6 @@ const tracks = [{
         "music/Temmie Village.mp3"
 }, {
     title:
-        "Your Guardian Angel",
-    artist:
-        "The Red Jumpsuit Apparataus",
-    src:
-        "music/The Red Jumpsuit Apparatus - Your Guardian Angel (Lyrics).mp3"
-}, {
-    title:
-        "Kawaki wo Ameku",
-    artist:
-        "Minami",
-    src:
-        "music/Minami - Kawaki wo Ameku Lyrics (Crying for Rain)_Domestic na Kanojo Op song [rse6a3MSKto].mp3"
-}, {
-    title:
-        "Huling Sandali",
-    artist:
-        "December Avenue ",
-    src:
-        "music/December Avenue - Huling Sandali (OFFICIAL LYRIC VIDEO).mp3"
-}, {
-    title:
-        "Pag-Ibig ay Kanibalismo",
-    artist:
-        "Fitterkarma",
-    src:
-        "music/fitterkarma - Pag-Ibig ay Kanibalismo II (Lyrics).mp3"
-}, {
-    title:
         "Kalapastangan",
     artist:
         "Fitterkarma",
@@ -68,13 +75,6 @@ const tracks = [{
         "Daughtry",
     src:
         "music/Daughtry - Life After You (Lyrics).mp3"
-}, {
-    title:
-        "About You",
-    artist:
-        "The 1975",
-    src:
-        "music/The 1975 - About You (Official).mp3"
 }, {
     title:
         "Multo",

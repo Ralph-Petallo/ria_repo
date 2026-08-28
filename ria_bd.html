@@ -692,13 +692,9 @@
         ========================================================= */
 
         .gallery {
-            display: grid;
+            column-count: 3;
 
-            grid-template-columns:
-                repeat(auto-fit,
-                    minmax(200px, 1fr));
-
-            gap: 18px;
+            column-gap: 18px;
 
             margin-top: 25px;
         }
@@ -707,6 +703,14 @@
             position: relative;
 
             margin: 0;
+
+            margin-bottom: 18px;
+
+            display: inline-block;
+
+            width: 100%;
+
+            break-inside: avoid;
 
             overflow: hidden;
 
@@ -778,7 +782,8 @@
             display: block;
 
             width: 100%;
-            height: 190px;
+
+            height: 220px;
 
             object-fit: cover;
 
@@ -792,6 +797,18 @@
         .gallery figure:hover img {
             transform:
                 scale(1.035);
+        }
+
+        .gallery figure:nth-child(3n + 1) img {
+            height: 260px;
+        }
+
+        .gallery figure:nth-child(3n + 2) img {
+            height: 185px;
+        }
+
+        .gallery figure:nth-child(5n) img {
+            height: 310px;
         }
 
         .gallery figcaption {
@@ -1612,11 +1629,11 @@
             }
 
             .gallery {
-                grid-template-columns: 1fr;
+                column-count: 2;
             }
 
             .gallery img {
-                height: 230px;
+                height: 220px;
             }
 
             .music-dock {
@@ -1660,6 +1677,10 @@
         }
 
         @media (max-width: 480px) {
+
+            .gallery {
+                column-count: 1;
+            }
 
             .envelope {
                 width: 250px;
@@ -1902,6 +1923,43 @@
 
                 </figure>
 
+                <figure data-image="/images/L pose.jpg"
+                    data-caption="One of those simple moments that somehow becomes a favorite memory.">
+
+                    <img src="/images/L pose.jpg" alt="A happy memory">
+
+                    <figcaption>
+                        Dec.14,2023
+
+                        The first time travel nato,away sa city,away sa problems.
+
+                        The first time we went to beach together unplanned and of course patago na laag. We called it
+                        "takas" song most played
+                        kani na time? "All to well" by Taylor swift
+
+                        - Bryll
+                    </figcaption>
+
+                </figure>
+
+                <figure data-image="/images/butterfly.jpg"
+                    data-caption="One of those simple moments that somehow becomes a favorite memory.">
+
+                    <img src="/images/butterfly.jpg" alt="A happy memory">
+
+                    <figcaption>
+                        Dec.27,2024
+
+                        The first time I traveled with a friend very far and without my family along. The first closest
+                        friend to ever meet my
+                        other family the the most important friend who is been there always to experience with that are
+                        new to me 😊
+
+                        -Bryll
+                    </figcaption>
+
+                </figure>
+
                 <figure data-image="/images/riailong.jpg"
                     data-caption="One of those simple moments that somehow becomes a favorite memory.">
 
@@ -1909,6 +1967,40 @@
 
                     <figcaption>
                         happy na birthday mo pa! ~~
+                    </figcaption>
+
+                </figure>
+
+                <figure data-image="/images/sidepose.jpg"
+                    data-caption="One of those simple moments that somehow becomes a favorite memory.">
+
+                    <img src="/images/sidepose.jpg" alt="A happy memory">
+
+                    <figcaption>
+                        Maria Clara ika nga nila pero parang "that's my tomboy" ang galawan lalo na kung mas pagod pa
+                        yan. The opposite girl ,carb girl and coke lover I ever met. Top customer ng jollibee.
+                    </figcaption>
+
+                </figure>
+
+                <figure data-image="/images/kaonfly.jpg"
+                    data-caption="One of those simple moments that somehow becomes a favorite memory.">
+
+                    <img src="/images/kaonfly.jpg" alt="A happy memory">
+
+                    <figcaption>
+                        Raaahhhhhh HAHA
+                    </figcaption>
+
+                </figure>
+
+                <figure data-image="/images/orange dress.jpg"
+                    data-caption="One of those simple moments that somehow becomes a favorite memory.">
+
+                    <img src="/images/orange dress.jpg" alt="A happy memory">
+
+                    <figcaption>
+                        :>
                     </figcaption>
 
                 </figure>
@@ -1948,6 +2040,28 @@
 
                 </figure>
 
+                <figure data-image="/images/3pepols.jpg"
+                    data-caption="Remember this? yeah me neither, nahukay ko lang to sa google photos.">
+
+                    <img src="/images/3pepols.jpg" alt="Birthday memory">
+
+                    <figcaption>
+                        busy sa cp anay
+                    </figcaption>
+
+                </figure>
+
+                <figure data-image="/images/withcats.jpg"
+                    data-caption="Remember this? yeah me neither, nahukay ko lang to sa google photos.">
+
+                    <img src="/images/withcats.jpg" alt="Birthday memory">
+
+                    <figcaption>
+                        busy sa cp anay
+                    </figcaption>
+
+                </figure>
+
                 <figure data-image="/images/unggoy.jpg"
                     data-caption="Remember this? yeah me neither, nahukay ko lang to sa google photos.">
 
@@ -1957,6 +2071,17 @@
                         unggoy for the night HAHHAA
                     </figcaption>
 
+                </figure>
+
+                <figure data-image="/images/withcats2.jpg   "
+                    data-caption="Remember this? yeah me neither, nahukay ko lang to sa google photos.">
+                
+                    <img src="/images/withcats2.jpg" alt="Birthday memory">
+                
+                    <figcaption>
+                        unggoy for the night HAHHAA
+                    </figcaption>
+                
                 </figure>
 
 
